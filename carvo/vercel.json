@@ -1,0 +1,5 @@
+{
+  "crons": [
+    { "path": "/api/sync-fipe", "schedule": "0 6 5 * *" }
+  ]
+}
