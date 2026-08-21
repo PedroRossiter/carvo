@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         bg: "#F7F8FB",
         surface: "#FFFFFF",
-        ink: "#1C2230",
+        ink: "#211D3F", // navy da logo (components/Logo.jsx) — cor-base da marca
         muted: "#6B7280",
         primary: {
           DEFAULT: "#0EA5E9",

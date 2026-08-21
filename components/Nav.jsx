@@ -2,7 +2,8 @@
 import { Fragment } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { IconCar, IconGrid, IconScale, IconTag, IconBook, IconChat } from "@/components/Icons";
+import { IconGrid, IconScale, IconTag, IconBook, IconChat } from "@/components/Icons";
+import Logo from "@/components/Logo";
 
 const ITEMS = [
   { href: "/", label: "Catálogo", Icon: IconGrid },
@@ -19,11 +20,8 @@ export default function Nav() {
       <header className="sticky top-0 z-40 bg-bg/95 backdrop-blur border-b border-black/[0.06]">
         <div className="max-w-6xl mx-auto px-5 sm:px-8">
           <div className="flex items-center justify-between h-20">
-            <Link href="/" className="flex items-center gap-2.5 font-semibold text-ink text-base tracking-tight">
-              <span className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center">
-                <IconCar width={16} height={16} />
-              </span>
-              <span className="uppercase tracking-[0.08em] text-sm">Carvo</span>
+            <Link href="/" className="flex items-center text-ink" aria-label="Carvo — início">
+              <Logo className="h-7 sm:h-8 w-auto" />
             </Link>
             <nav className="hidden sm:flex items-center gap-8">
               {ITEMS.map(({ href, label }) => {

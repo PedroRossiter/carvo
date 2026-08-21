@@ -1,0 +1,17 @@
+<svg viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg">
+  <title>Carvo</title>
+  <g fill="none" stroke="#211D3F" stroke-width="42" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M140,82 A59,59 0 1 0 140,158" />
+    <path d="M200,200 L275,40 L350,200" />
+    <path d="M228,140 L322,140" />
+    <path d="M410,40 L410,200" />
+    <path d="M410,40 A50,50 0 0 1 410,140" />
+    <path d="M410,145 C442,157 434,178 478,197" />
+    <path d="M530,40 L595,200 L660,40" />
+    <path d="M736,120 A59,59 0 1 1 854,120 A59,59 0 1 1 736,120 Z" />
+  </g>
+  <path
+    d="M270,55 C264,72 259,88 263,102 C265,109 285,109 287,102 C291,88 286,72 280,55 Z"
+    fill="#211D3F"
+  />
+</svg>
