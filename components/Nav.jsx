@@ -21,7 +21,7 @@ export default function Nav() {
         <div className="max-w-6xl mx-auto px-5 sm:px-8">
           <div className="flex items-center justify-between h-20">
             <Link href="/" className="flex items-center text-ink" aria-label="Carvo — início">
-              <Logo className="h-7 sm:h-8 w-auto" />
+              <Logo className="text-[26px] sm:text-[30px]" />
             </Link>
             <nav className="hidden sm:flex items-center gap-8">
               {ITEMS.map(({ href, label }) => {
