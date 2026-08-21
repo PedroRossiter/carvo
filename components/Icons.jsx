@@ -106,6 +106,15 @@ export function IconBook(props) {
   );
 }
 
+export function IconTag(props) {
+  return (
+    <svg {...base(props)}>
+      <path d="M12.5 3H5a2 2 0 0 0-2 2v7.5a2 2 0 0 0 .59 1.41l8.5 8.5a2 2 0 0 0 2.82 0l7.09-7.09a2 2 0 0 0 0-2.82l-8.5-8.5A2 2 0 0 0 12.5 3z" />
+      <circle cx="8.5" cy="8.5" r="1.5" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
 export function IconChat(props) {
   return (
     <svg {...base(props)}>

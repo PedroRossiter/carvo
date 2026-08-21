@@ -2,11 +2,12 @@
 import { Fragment } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { IconCar, IconGrid, IconScale, IconBook, IconChat } from "@/components/Icons";
+import { IconCar, IconGrid, IconScale, IconTag, IconBook, IconChat } from "@/components/Icons";
 
 const ITEMS = [
   { href: "/", label: "Catálogo", Icon: IconGrid },
   { href: "/comparador", label: "Comparador", Icon: IconScale },
+  { href: "/marcas", label: "Marcas", Icon: IconTag },
   { href: "/glossario", label: "Glossário", Icon: IconBook },
   { href: "/assistente", label: "Assistente", Icon: IconChat },
 ];
